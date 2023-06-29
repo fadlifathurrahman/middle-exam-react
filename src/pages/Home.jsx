@@ -408,7 +408,7 @@ export default function Home() {
             Nama
             <input
               type="text"
-              onChange={(e) => setNewItem({ ...newItem, products.name= e.target.value })}
+              onChange={(e) => setNewItem({ ...newItem, name: e.target.value })}
               required
               autoFocus
             />
